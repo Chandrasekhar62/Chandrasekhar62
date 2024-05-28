@@ -1,0 +1,18 @@
+public class ifCondition {
+    public static void main(String[] args){
+        int a=3,b=4;
+        if(a>b){ //block
+           System.out.println("a>b");
+        }
+        if(a>0){
+            System.out.println("a>0");
+        }
+        if(a<0){
+            System.out.println("a<0");
+        }
+        else{
+            System.out.println("Else block");
+        }
+        System.out.println("Hello World");
+    }
+}
